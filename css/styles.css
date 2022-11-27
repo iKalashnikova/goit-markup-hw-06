@@ -895,7 +895,7 @@ outline: solid teal;
 
 } */
 
-.policy-text p {
+.policy-text b {
   width: 16px;
   height: 15px;
   border: 2px solid var(--title-text-color);
@@ -908,7 +908,7 @@ outline: solid teal;
   /* margin-left: 68px; */
 }
 
-.modal-check:checked + .policy-text p {
+.modal-check:checked + .policy-text b {
   background-color: var(--accent-color);
   border: none;
   fill: var(--primary-background);
@@ -978,6 +978,10 @@ margin-right: 9px;
 
   color: rgba(255, 255, 255, 0.6);
   outline: transparent;
+}
+
+.subscribe-input:focus {
+  border-color: var(--accent-color);
 }
 
 .subscribe-button {
