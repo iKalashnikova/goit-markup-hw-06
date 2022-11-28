@@ -855,6 +855,10 @@ outline: solid teal;
   margin-bottom: 4px;
 }
 
+.wrap-textarea{
+  margin-bottom: 20px;
+}
+
 .modal-coment {
   width: 100%;
   height: 120px;
@@ -867,8 +871,7 @@ outline: solid teal;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-  margin-bottom: 20px;
-
+  
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -879,6 +882,7 @@ outline: solid teal;
 .policy-text {
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -888,14 +892,13 @@ outline: solid teal;
 
 .policy-contract {
   color: var(--accent-color);
-  text-decoration: underline;
 }
 
 /* .check-icon{
 
 } */
 
-.policy-text b {
+.policy-text span {
   width: 16px;
   height: 15px;
   border: 2px solid var(--title-text-color);
@@ -908,7 +911,7 @@ outline: solid teal;
   /* margin-left: 68px; */
 }
 
-.modal-check:checked + .policy-text b {
+.modal-check:checked + .policy-text span {
   background-color: var(--accent-color);
   border: none;
   fill: var(--primary-background);
