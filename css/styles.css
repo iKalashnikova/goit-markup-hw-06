@@ -634,13 +634,14 @@ outline: solid teal;
 
 .footer {
   background-color: var(--footer-background);
+  padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-section {
   display: flex;
-  padding-top: 60px;
-  padding-bottom: 60px;
   align-items: baseline;
+justify-content: space-between;
 }
 
 .address-section {
@@ -747,7 +748,7 @@ outline: solid teal;
   padding: 40px;
 
   width: 542px;
-  height: 581px;
+  /* height: 581px; */
   background-color: #ffffff;
   border-radius: 4px;
 
@@ -955,6 +956,7 @@ margin-right: 9px;
 
 .subscribe {
   margin-left: 93px;
+  /* display: flex; */
 }
 
 .subscribe-label {
@@ -987,9 +989,14 @@ margin-right: 9px;
   border-color: var(--accent-color);
 }
 
+.subscribe-area{
+  display: flex;
+}
+
 .subscribe-button {
 position: relative;
 padding-right: 28px;
+/* padding-left: 28px; */
 
   width: 200px;
   height: 50px;
