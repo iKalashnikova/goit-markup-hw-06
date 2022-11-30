@@ -939,10 +939,12 @@ margin-right: 9px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;
+
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
+
   padding: 10px 52px;
   margin: auto;
   width: 200px;
@@ -993,19 +995,25 @@ margin-right: 9px;
   display: flex;
 }
 
+.button-area{
+
+}
+
 .subscribe-button {
 position: relative;
 padding-right: 28px;
-/* padding-left: 28px; */
+  /* padding-left: 28px; */
 
   width: 200px;
   height: 50px;
   margin-left: 12px;
+
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
   color: #ffffff;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
